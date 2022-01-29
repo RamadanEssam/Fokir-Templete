@@ -1,0 +1,536 @@
+@media screen and (max-width:586px) {
+    .container {
+        width: 90%;
+    }
+
+    .header .header-content .navbar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: #333;
+        z-index: 99999;
+
+    }
+
+    .header .header-content .navbar .nav-links ul {
+        display: none;
+    }
+
+    .header .header-content .navbar .nav-links .menu {
+        text-align: right;
+    }
+
+    .header .header-content .navbar .nav-links .menu i {
+        font-size: 20px;
+    }
+
+
+    .header .header-content .header-text span {
+        font-size: 20px;
+    }
+
+    .header .header-content .header-text h1 {
+        font-size: 40px;
+    }
+
+    .header .header-content .header-text p {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .about .about-sections {
+        flex-direction: column;
+    }
+
+    .about .about-section {
+        width: 100%;
+    }
+
+    .about .about-pic .img-container {
+        border: none;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .about .about-pic .img-container .img-box {
+        transform: translate(0, 0);
+        margin-bottom: 20px;
+    }
+
+    .about .about-text .info {
+        flex-direction: column;
+    }
+
+    .about .about-text .info li {
+        width: 100%;
+
+    }
+
+    .about .btns button {
+        padding: 10px 20px;
+    }
+
+    .services {
+        margin-top: 50px;
+        background-color: #f1f1f1;
+        padding: 50px 0;
+    }
+
+    .services .items {
+        flex-direction: column;
+    }
+
+    .services .items .item {
+        width: 100%;
+    }
+
+    .portfolio {
+        margin-top: 50px;
+    }
+
+    .portfolio .gallery .gallery-items {
+        flex-direction: column;
+    }
+
+    .portfolio .gallery .gallery-item {
+        width: 100%;
+    }
+
+    .counter {
+        padding: 50px 0;
+        margin-top: 50px;
+    }
+
+    .counter .counter-items {
+        flex-direction: column;
+    }
+
+    .counter .counter-items .counter-item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .testmonials .testmonial-card {
+        width: 100%;
+    }
+    .testmonials .testmonial-card .testmonial-content{
+        width: 100%;
+    }
+
+    .testmonial-card .card-items {
+        flex-direction: column;
+    }
+
+    .blog .blog-items {
+        flex-direction: column;
+    }
+
+    .blog .blog-items .blog-item {
+        width: 100%;
+    }
+
+    .contact-us {
+        margin-top: 50px;
+    }
+
+
+    .contact-us form {
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .contact-us .form-element {
+        width: 100%;
+
+        overflow: hidden;
+    }
+
+    .contact-us .form-element input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        color: #555;
+        border-radius: 5px;
+    }
+
+    .contact-us .form-element textarea {
+        width: 100%;
+        height: 100px;
+        color: #555;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .contact-us .w-100 {
+        width: 100%;
+    }
+
+    .contact-us .submit-btn {
+        width: auto;
+    }
+
+    .contact-us .form-element .btn {
+        background-color: #ff305b;
+        border: none;
+        color: white;
+        border-radius: 5px;
+    }
+
+}
+
+
+/* ========== */
+@media screen and (min-width:587px) and (max-width:769px) {
+    .header .header-content .navbar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: #333;
+        z-index: 99999;
+
+    }
+
+    .header .header-content .navbar .nav-links ul {
+        display: none;
+    }
+
+    .header .header-content .navbar .nav-links .menu {
+        text-align: right;
+    }
+
+    .header .header-content .navbar .nav-links .menu i {
+        font-size: 20px;
+    }
+
+
+    .header .header-content .header-text span {
+        font-size: 20px;
+    }
+
+    .header .header-content .header-text h1 {
+        font-size: 40px;
+    }
+
+    .header .header-content .header-text p {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .about .about-sections {
+        flex-direction: column;
+    }
+
+    .about .about-section {
+        width: 70%;
+        margin: auto;
+    }
+
+    .about .about-pic .img-container {
+        border: none;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .about .about-pic .img-container .img-box {
+        transform: translate(0, 0);
+        margin-bottom: 20px;
+    }
+
+
+    .about .about-text .info li {
+        width: 100%;
+
+    }
+
+    .about .btns button {
+        padding: 10px 20px;
+    }
+
+    .services {
+        margin-top: 50px;
+        background-color: #f1f1f1;
+        padding: 50px 0;
+    }
+
+    .services .items {
+        flex-direction: column;
+    }
+
+    .services .items .item {
+        width: 70%;
+        margin: auto;
+    }
+
+    .portfolio {
+        margin-top: 50px;
+    }
+
+    .portfolio .gallery .gallery-item {
+        width: 70%;
+        margin: auto;
+    }
+
+    .counter {
+        padding: 50px 0;
+        margin-top: 50px;
+    }
+
+    .counter .counter-items {
+        flex-direction: column;
+    }
+
+    .counter .counter-items .counter-item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .testmonials .testmonial-card {
+        width: 70%;
+    }
+    .testmonials .testmonial-card .testmonial-content{
+        width: 100%;
+    }
+
+    .testmonial-card .card-items {
+        flex-direction: column;
+    }
+    
+    .blog .blog-items {
+        flex-direction: column;
+    }
+
+    .blog .blog-items .blog-item {
+        width: 70%;
+        margin: auto;
+    }
+
+    .contact-us {
+        margin-top: 50px;
+    }
+
+
+    .contact-us form {
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .contact-us .form-element {
+        width: 100%;
+
+        overflow: hidden;
+    }
+
+    .contact-us .form-element input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        color: #555;
+        border-radius: 5px;
+    }
+
+    .contact-us .form-element textarea {
+        width: 100%;
+        height: 100px;
+        color: #555;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .contact-us .w-100 {
+        width: 100%;
+    }
+
+    .contact-us .submit-btn {
+        width: auto;
+    }
+
+    .contact-us .form-element .btn {
+        background-color: #ff305b;
+        border: none;
+        color: white;
+        border-radius: 5px;
+    }
+
+}
+
+/* =================== */
+@media screen and (min-width:769px) and (max-width:992px) {
+    .container {
+        width: 97%;
+        margin: auto;
+    }
+
+    .header .header-content .navbar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: #333;
+        z-index: 99999;
+    }
+
+    .header .header-content .navbar .nav-links ul {
+        display: none;
+    }
+
+    .header .header-content .navbar .nav-links .menu {
+        text-align: right;
+    }
+
+    .header .header-content .navbar .nav-links .menu i {
+        font-size: 20px;
+    }
+
+
+
+    .header .header-content .header-text p {
+        font-weight: bold;
+    }
+
+    .about .about-section {
+        width: 50%;
+    }
+
+
+    .about .about-text {
+        padding-left: 30px;
+    }
+
+    .about .about-pic .img-container {
+        border: none;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .about .about-pic .img-container .img-box {
+        transform: translate(0, 0);
+    }
+
+
+    .about .about-text .info li {
+        width: 50%;
+        font-size: 14px;
+        margin-bottom: 0px;
+
+    }
+
+    .about .btns button {
+        padding: 10px 20px;
+    }
+
+    .services {
+        margin-top: 50px;
+        background-color: #f1f1f1;
+        padding: 50px 0;
+    }
+
+    .services .items .item {
+        width: 50%;
+    }
+
+    .portfolio {
+        margin-top: 50px;
+    }
+
+    .portfolio .gallery .gallery-item {
+        width: 50%;
+    }
+
+    .counter {
+        padding: 50px 0;
+        margin-top: 50px;
+    }
+
+    .counter .counter-items .counter-item {
+        width: 25%;
+    }
+
+    .testmonials .testmonial-card {
+        width: 100%;
+    }
+
+    .blog .blog-items .blog-item {
+        width: 33.33%;
+    }
+
+    .contact-us {
+        margin-top: 50px;
+    }
+
+
+    .contact-us form {
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .contact-us .form-element {
+        width: 100%;
+
+        overflow: hidden;
+    }
+
+    .contact-us .form-element input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        color: #555;
+        border-radius: 5px;
+    }
+
+    .contact-us .form-element textarea {
+        width: 100%;
+        height: 100px;
+        color: #555;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .contact-us .w-100 {
+        width: 100%;
+    }
+
+    .contact-us .submit-btn {
+        width: auto;
+    }
+
+    .contact-us .form-element .btn {
+        background-color: #ff305b;
+        border: none;
+        color: white;
+        border-radius: 5px;
+    }
+
+}
+
+@media screen and (min-width:993px) and (max-width:1260px) {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .about .about-text .info li {
+        width: 50%;
+        margin-bottom: 0px;
+    }
+
+
+    .about .btns button {
+        padding: 10px;
+    }
+
+
+}
+
+@media screen and (min-width:993px) {
+    .header .header-content .navbar .nav-links .menu {
+        display: none;
+    }
+
+}
